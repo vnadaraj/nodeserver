@@ -1,9 +1,9 @@
 
 // built-in node package
 const http = require('http');
-const port = 7000;
+const PORT = 7000;
 const handleRequest = (req, res) => {
-	res.end('Hey, it works! ' + req.url);
+	res.end('You are good at JavaScript! ' + req.url);
 
 }
 
